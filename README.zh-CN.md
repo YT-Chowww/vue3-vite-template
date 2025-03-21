@@ -65,6 +65,10 @@
 
 ## 预配置
 
+### 组件库
+
+- [Vant 4](https://vant-ui.github.io/vant/#/zh-CN/home) - Vant 是一个轻量、可定制的移动端组件库
+
 ### UI 框架
 
 - [UnoCSS](https://github.com/antfu/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎

@@ -39,13 +39,14 @@ const { t } = useI18n()
     <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
 
     <div>
-      <button
-        m-3 text-sm btn
+      <VanButton
+        type="primary"
+        size="small"
         :disabled="!name"
         @click="go"
       >
         {{ t('button.go') }}
-      </button>
+      </VanButton>
     </div>
   </div>
 </template>

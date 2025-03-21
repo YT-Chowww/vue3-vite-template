@@ -1,6 +1,7 @@
 import path from 'node:path'
 import VueI18n from '@intlify/unplugin-vue-i18n/vite'
 import Shiki from '@shikijs/markdown-it'
+import { VantResolver } from '@vant/auto-import-resolver'
 import Vue from '@vitejs/plugin-vue'
 import LinkAttributes from 'markdown-it-link-attributes'
 import Unocss from 'unocss/vite'
@@ -61,6 +62,7 @@ export default defineConfig({
         'src/stores',
       ],
       vueTemplate: true,
+      resolvers: [VantResolver()],
     }),
 
     // https://github.com/antfu/unplugin-vue-components
@@ -70,6 +72,7 @@ export default defineConfig({
       // allow auto import and register components used in markdown
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
       dts: 'src/components.d.ts',
+      resolvers: [VantResolver()],
     }),
 
     // https://github.com/antfu/unocss

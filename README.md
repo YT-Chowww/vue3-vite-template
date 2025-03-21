@@ -67,6 +67,10 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 
 ## Pre-packed
 
+### Component Libraries
+
+- [Vant 4](https://vant-ui.github.io/vant/#/zh-CN/home) - Vant is a lightweight, customizable mobile component library
+
 ### UI Frameworks
 
 - [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
@@ -214,3 +218,7 @@ docker run --rm -it -p 8080:80 vitesse:latest
 I have created several Vite apps recently. Setting the configs up is kinda the bottleneck for me to make the ideas simply come true within a very short time.
 
 So I made this starter template for myself to create apps more easily, along with some good practices that I have learned from making those apps. It's strongly opinionated, but feel free to tweak it or even maintain your own forks. [(see community maintained variation forks)](#variations)
+
+### Component Libraries
+
+- [Vant 4](https://vant-ui.github.io/vant/#/zh-CN/home) - Vant is a lightweight, customizable mobile component library
